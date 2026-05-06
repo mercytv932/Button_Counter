@@ -5,6 +5,7 @@ body {
   min-height: 100vh;
   margin: auto;
 }
+
 .btnsContainer{
   background-color: #87CEEB;
   width: 400px;
@@ -26,7 +27,6 @@ border-radius: 3px;
 }
 #addBtn:hover{
 background-color: #012141;
-
 }
 
 #subtractBtn{
@@ -55,5 +55,4 @@ border-radius: 3px;
 
 #resetBtn:hover{
   background-color: #414142;
-
 }
