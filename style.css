@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  min-height: 100vh;
+  margin: auto;
+}
+.btnsContainer{
+  background-color: #87CEEB;
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+}
+
+#addBtn{
+cursor: pointer;
+background-color: #004080;
+transition: 0.2s;
+margin: 7px;
+font-size: 16px;
+padding: 7px 20px;
+border-radius: 3px;
+}
+#addBtn:hover{
+background-color: #012141;
+
+}
+
+#subtractBtn{
+cursor: pointer;
+background-color: #c72727;
+transition: 0.2s;
+margin: 7px;
+font-size: 16px;
+padding: 7px 20px;
+border-radius: 3px;
+}
+
+#subtractBtn:hover {
+  background-color: #600000;
+}
+
+#resetBtn{
+cursor: pointer;
+background-color: #6c6f7c;
+transition: 0.2s;
+margin: 7px;
+font-size: 16px;
+padding: 7px 20px;
+border-radius: 3px;
+}
+
+#resetBtn:hover{
+  background-color: #414142;
+
+}
